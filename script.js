@@ -10,7 +10,6 @@ function divide(a, b) { return a / b; };
 
 
 function operate(operator, a, b) {
-
     let result;
     if (operator == "+")
         result = sum(a, b);
@@ -23,5 +22,3 @@ function operate(operator, a, b) {
 
         return result;
 }
-
-console.log(operate("/",20,5));
