@@ -74,3 +74,8 @@ button{
     background-color: aqua;
 
 }
+.operatorButton {
+    color:  rgba(255, 0, 0, 0.733);
+    font-weight: 1000;
+    font-size: 110%;
+}
