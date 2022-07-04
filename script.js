@@ -17,7 +17,6 @@ function divide(a, b) { return a / b; };
 function operate(operator, a, b) {
     a = parseFloat(a);
     b = parseFloat(b);
-    console.log(a,b);
     let result;
     if (operator == "+")
         result = sum(a, b);
@@ -29,7 +28,6 @@ function operate(operator, a, b) {
         result = divide(a, b);
 
     operated = false;
-    console.log(result);
     if(result == "Infinity" || isNaN(result)){
         return "illegal operation!";
     }
