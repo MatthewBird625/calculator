@@ -1,6 +1,6 @@
 # calculator
 
-A basic calculator made in HTML, css and JS. 
+A basic calculator made in HTML, css and JS. Calculator rounds to four decimal places. 
 
 view site on github here: https://matthewbird625.github.io/calculator/
 
